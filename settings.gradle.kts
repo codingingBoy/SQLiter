@@ -7,6 +7,12 @@ pluginManagement {
   plugins {
     kotlin("multiplatform") version KOTLIN_VERSION
   }
+  repositories {
+    mavenLocal()
+    google()
+    gradlePluginPortal()
+    mavenCentral()
+  }
 }
 
 dependencyResolutionManagement {
